@@ -6,6 +6,10 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { MapPin, Users, Crown } from 'lucide-react';
 
 // Gönüllüler listesi (takımsız, tek grid)
+
+// BU COMPONENT GEÇERSİZDİR, Volunteers.tsx'e bak.
+
+
 const volunteers = [
   // Direktörler
   { id: 1, name: 'Duhan Durmaz', role: 'director' },

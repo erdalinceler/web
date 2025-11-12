@@ -22,9 +22,86 @@ const EventsSection = () => {
     // id'yi 1 arttır knk
     // tmm -kaan
     {
+      id: 24,
+      title: 'Girls Night',
+      date: language === 'tr' ? '16 Kasım 2025' : '16 Nov 2025',
+      time: '17:00',
+      location: 'Galata Kampüsü BAÜ/Istanbul',
+      attendees: 35,
+      instagramUrl: 'https://www.instagram.com/p/DQ4UAnniEvR',
+      description: language === 'tr'
+        ? 'Oyun sektöründe çalışan veya bu alana ilgi duyan tüm kadınları bir araya getirdiğimiz bu etkinlikte sohbet edelim, oyun oynayalım, deneyimlerimizi paylaşalım ve birbirimize ilham olalım.'
+        : 'In this event where we bring together all women working in or interested in the game industry, let’s chat, play games, share our experiences, and inspire one another.',
+      hasForm: false,
+      hasPizza: false,
+      formUrl: null,
+      calendarData: {
+        name: 'Girls Night',
+        description: language === 'tr'?
+        'Oyun sektöründe çalışan veya bu alana ilgi duyan tüm kadınları bir araya getirdiğimiz bu etkinlikte sohbet edelim, oyun oynayalım, deneyimlerimizi paylaşalım ve birbirimize ilham olalım.'
+        : 'In this event where we bring together all women working in or interested in the game industry, let’s chat, play games, share our experiences, and inspire one another.',
+        startDate: '2025-11-15',
+        startTime: '17:00',
+        endTime: '18:00',
+        location: 'Galata Kampüsü BAÜ/Istanbul',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 23,
+      title: language === 'tr' ? 'Sanat ve Tasarım Gecesi' : 'Art and Design Day',
+      date: language === 'tr' ? '15 Kasım 2025' : '15 Nov 2025',
+      time: '19:00',
+      location: 'Freedom Pub Çankaya/Ankara',
+      attendees: 80,
+      instagramUrl: 'https://www.instagram.com/p/DQ16UpHiBWD',
+      description: language === 'tr'
+        ? ' Müzik aletini, kalemini, tabletini, bilgisayarını kap ve discorda gel; istersen portfolyonu paylaş, istersen sadece sürece dahil ol.'
+        : 'Grab your musical instrument, pen, tablet, or computer and hop on Discord — share your portfolio if you want, or just join in on the process.',
+      hasForm: false,
+      hasPizza: false,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Sanat ve Tasarım Gecesi' : 'Art and Design Day',
+        description: language === 'tr' ?
+        ' Müzik aletini, kalemini, tabletini, bilgisayarını kap ve discorda gel; istersen portfolyonu paylaş, istersen sadece sürece dahil ol.'
+        : 'Grab your musical instrument, pen, tablet, or computer and hop on Discord — share your portfolio if you want, or just join in on the process.',
+        startDate: '2025-11-15',
+        startTime: '19:00',
+        endTime: '20:00',
+        location: 'Freedom Pub Çankaya/Ankara',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 22,
+      title: language === 'tr' ? 'Playtest Günü' : 'Playtest Day',
+      date: language === 'tr' ? '8 Kasım 2025' : '8 Nov 2025',
+      time: '17:00',
+      location: 'Zürafa PSM Kızılay/Ankara',
+      attendees: 80,
+      instagramUrl: 'https://www.instagram.com/p/DQjv5E9iAGI',
+      description: language === 'tr'
+        ? 'Hazırsan oyununu kap gel çünkü test günü yapıyoruz. İster oyununu test ettirmeye getir, ister oyunları test etmeye gel ya da sadece sohbet etmeye.'
+        : 'If you’re ready, close your game and come over — because it’s test day! 🎮 Bring your game to have it tested, come to test other games, or just drop by to chat.',
+      hasForm: false,
+      hasPizza: true,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Playtest Günü' : 'Playtest Day',
+        description: language === 'tr' ? 'Hazırsan oyununu kap gel çünkü test günü yapıyoruz. İster oyununu test ettirmeye getir, ister oyunları test etmeye gel ya da sadece sohbet etmeye.'
+        : 'If you’re ready, close your game and come over — because it’s test day! 🎮 Bring your game to have it tested, come to test other games, or just drop by to chat.',
+        startDate: '2025-11-08',
+        startTime: '17:00',
+        endTime: '18:00',
+        location: 'Zürafa PSM Kızılay/Ankara',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
       id: 21,
       title: language === 'tr' ? 'Chris Zukowski ile Oyun Pazarlama üzerine Söyleşi' : 'Game Marketing with Chris Zukowski',
-      date: language === 'tr' ? '2 Kasım 2025' : '7 Nov 2025',
+      date: language === 'tr' ? '2 Kasım 2025' : '2 Nov 2025',
       time: '20:00',
       location: 'Online',
       attendees: 80,
@@ -36,10 +113,10 @@ const EventsSection = () => {
       hasPizza: false,
       formUrl: null,
       calendarData: {
-        name: language === 'tr' ? 'Magma Çizim Etkinliği': 'Magma Drawing Event',
-        description: language === 'tr' ? 'Simültene çizim etkinliği'
-        : 'Simultaneous drawing event',
-        startDate: '2025-10-28',
+        name: language === 'tr' ? 'Chris Zukowski ile Oyun Pazarlama üzerine Söyleşi' : 'Game Marketing with Chris Zukowski',
+        description: language === 'tr' ? 'Steam\'de Oyun Pazarlaması üzerine söyleşi.'
+        : 'A talk about Steam game marketing',
+        startDate: '2025-11-02',
         startTime: '20:00',
         endTime: '21:00',
         location: 'Online',

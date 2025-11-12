@@ -20,6 +20,256 @@ const EventsSection = () => {
 
   const events = [
     // id'yi 1 arttır knk
+    // tmm -kaan
+    {
+      id: 21,
+      title: language === 'tr' ? 'Chris Zukowski ile Oyun Pazarlama üzerine Söyleşi' : 'Game Marketing with Chris Zukowski',
+      date: language === 'tr' ? '2 Kasım 2025' : '7 Nov 2025',
+      time: '20:00',
+      location: 'Online',
+      attendees: 80,
+      instagramUrl: 'https://www.instagram.com/p/DQZtqoHiGfM',
+      description: language === 'tr'
+        ? 'Steam\'de Oyun Pazarlaması üzerine söyleşi.'
+        : 'A talk about Steam game marketing',
+      hasForm: false,
+      hasPizza: false,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Magma Çizim Etkinliği': 'Magma Drawing Event',
+        description: language === 'tr' ? 'Simültene çizim etkinliği'
+        : 'Simultaneous drawing event',
+        startDate: '2025-10-28',
+        startTime: '20:00',
+        endTime: '21:00',
+        location: 'Online',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 20,
+      title: language === 'tr' ? 'Magma Çizim Etkinliği': 'Magma Drawing Event',
+      date: language === 'tr' ? '28 Ekim 2025' : '28 Oct 2025',
+      time: '20:00',
+      location: 'Online',
+      attendees: 50,
+      instagramUrl: 'https://www.instagram.com/p/DQRXMIHiM0z',
+      description: language === 'tr'
+        ? 'Simültene çizim etkinliği'
+        : 'Simultaneous drawing event',
+      hasForm: false,
+      hasPizza: false,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Magma Çizim Etkinliği': 'Magma Drawing Event',
+        description: language === 'tr' ? 'Simültene çizim etkinliği'
+        : 'Simultaneous drawing event',
+        startDate: '2025-10-28',
+        startTime: '20:00',
+        endTime: '21:00',
+        location: 'Online',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 19,
+      title: 'Postmortem',
+      date: language === 'tr' ? '26 Ekim 2025' : '26 Oct 2025',
+      time: '18:00',
+      location: 'Biergarten, Beşiktaş/İstanbul',
+      attendees: 50,
+      instagramUrl: 'https://www.instagram.com/p/DQCflrqiOZo',
+      description: language === 'tr'
+        ? 'Sektörde yapılan doğru/yanlışların semineri.'
+        : 'A seminar on the rights and wrongs within the industry.',
+      hasForm: false,
+      hasPizza: true,
+      formUrl: null,
+      calendarData: {
+        name: 'Postmortem',
+        description: language === 'tr' ? 'Sektörde yapılan doğru/yanlışların semineri.'
+        : 'A seminar on the rights and wrongs within the industry.',
+        startDate: '2025-10-26',
+        startTime: '18:00',
+        endTime: '18:00',
+        location: 'Biergarten, Beşiktaş/İstanbul',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 18,
+      title: language === 'tr' ? 'Sektörden Sesler' : 'Voices from Sector',
+      date: language === 'tr' ? '25 Ekim 2025' : '25 Oct 2025',
+      time: '19:00',
+      location: 'Mavi Bar, Alsancak/İzmir',
+      attendees: 50,
+      instagramUrl: 'https://www.instagram.com/p/DQB2VnICIQ0',
+      description: language === 'tr'
+        ? 'Oyun sektöründe deneyimli isimlerle söyleşi.'
+        : 'A talk with experienced figures from the game industry.',
+      hasForm: false,
+      hasPizza: true,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Sektörden Sesler' : 'Voices from Sector',
+        description: language === 'tr' ? 'Oyun sektöründe deneyimli isimlerle söyleşi.'
+        : 'A talk with experienced figures from the game industry.',
+        startDate: '2025-10-25',
+        startTime: '19:00',
+        endTime: '19:00',
+        location: 'Mavi Bar, Alsancak/İzmir',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 17,
+      title: language === 'tr' ? 'Mini Oyun Analizi' : 'Mini Game Analysis',
+      date: language === 'tr' ? '21 Ekim 2025' : '21 Oct 2025',
+      time: '19:00',
+      location: language === 'tr' ? 'ÜNOG Discord Kanalı' : 'ÜNOG Discord Server',
+      attendees: 80,
+      instagramUrl: 'https://www.instagram.com/p/DO37URpiOdn',
+      description: language === 'tr'
+        ? 'Flash inceleme etkinliğimizde seçtiğimiz eski oyunları derinlemesine, bütün yönleriyle inceleyip yorumlayacağız. ✍🏻'
+        : 'In our Flash review event, we’ll be taking an in-depth look at selected classic games, examining and commenting on them from every angle. ✍🏻',
+      hasForm: false,
+      hasPizza: false,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Mini Oyun Analizi' : 'Mini Game Analysis',
+        description: language === 'tr' ? 'Flash inceleme etkinliğimizde seçtiğimiz eski oyunları derinlemesine, bütün yönleriyle inceleyip yorumlayacağız. ✍🏻' : 'In our Flash review event, we’ll be taking an in-depth look at selected classic games, examining and commenting on them from every angle. ✍🏻',
+        startDate: '2025-10-21',
+        startTime: '19:00',
+        endTime: '20:00',
+        location: 'ÜNOG Discord',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 16,
+      title: 'Jamination 8',
+      date: language === 'tr' ? '17 Ekim 2025' : '17 Oct 2025',
+      time: '19:00',
+      location: 'Online/Istanbul/Ankara/Izmir',
+      attendees: 500,
+      instagramUrl: 'https://www.instagram.com/p/DPeqPTXCFSo',
+      description: language === 'tr'
+        ? 'Jamination, İTÜ Oyun Tasarımı ve Geliştirme Kulübü tarafından 8 yıldır geleneksel olarak düzenlenen; son 3 yıldır ise Türkiye’nin farklı şehirlerindeki oyun geliştirme topluluklarıyla birlikte gerçekleştirilen 48 saatlik bir game jam etkinliğidir.'
+        : 'Jamination is a 48-hour game jam event traditionally organized for 8 years by the ITU Game Design and Development Club, and for the past 3 years, it has been held in collaboration with game development communities from various cities across Turkey.',
+      hasForm: false,
+      hasPizza: true,
+      formUrl: null,
+      calendarData: {
+        name: 'Jamination 8',
+        description: language === 'tr'
+        ? 'Jamination, İTÜ Oyun Tasarımı ve Geliştirme Kulübü tarafından 8 yıldır geleneksel olarak düzenlenen; son 3 yıldır ise Türkiye’nin farklı şehirlerindeki oyun geliştirme topluluklarıyla birlikte gerçekleştirilen 48 saatlik bir game jam etkinliğidir.'
+        : 'Jamination is a 48-hour game jam event traditionally organized for 8 years by the ITU Game Design and Development Club, and for the past 3 years, it has been held in collaboration with game development communities from various cities across Turkey.',
+        startDate: '2025-10-17',
+        startTime: '12:00',
+        endTime: '12:00',
+        location: 'Online/Istanbul/Ankara/Izmir',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 15,
+      title: language === 'tr' ? 'Sektörden Sesler' : 'Voices from Sector',
+      date: language === 'tr' ? '11 Ekim 2025' : '11 Oct 2025',
+      time: '19:00',
+      location: 'Zürafa PSM, Kızılay/Ankara',
+      attendees: null,
+      instagramUrl: 'https://www.instagram.com/p/DPeeARcCMsp',
+      description: language === 'tr'
+        ? 'Oyun sektöründe deneyimli isimlerle söyleşi.'
+        : 'A talk with experienced figures from the game industry.',
+      hasForm: false,
+      hasPizza: false,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Sektörden Sesler' : 'Voices from Sector',
+        description: language === 'tr' ? 'Oyun sektöründe deneyimli isimlerle söyleşi.'
+        : 'A talk with experienced figures from the game industry.',
+        startDate: '2025-10-11',
+        startTime: '01:00',
+        endTime: '01:00',
+        location: 'Zürafa PSM, Kızılay/Ankara',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 14,
+      title: 'Ludum Dare 58.',
+      date: language === 'tr' ? '4 Ekim 2025' : '4 Oct 2025',
+      time: '01:00',
+      location: 'Online',
+      attendees: 999,
+      instagramUrl: 'https://www.instagram.com/p/DPMfDtYiBgW',
+      description: language === 'tr'
+        ? 'Dünyanın en büyük 2. Game jami olan Ludum dare\'nin 58\'incisine hep birlikte katılıyoruz.'
+        : 'We’re all joining together to take part in **Ludum Dare 58**, the world’s **second largest game jam**.',
+      hasForm: false,
+      hasPizza: false,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Oyun Geliştirici Pikniği' : 'Game Developer Picnic',
+        description: language === 'tr' ? 'Dünyanın en büyük 2. Game jami olan Ludum dare\'nin 58\'incisine hep birlikte katılıyoruz.'
+        : 'We’re all joining together to take part in **Ludum Dare 58**, the world’s **second largest game jam**.',
+        startDate: '2025-10-04',
+        startTime: '01:00',
+        endTime: '01:00',
+        location: 'Online',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 13,
+      title: language === 'tr' ? 'Oyun Geliştirici Pikniği' : 'Game Developer Picnic',
+      date: language === 'tr' ? '27 Eylül 2025' : '27 Sep 2025',
+      time: '14:00',
+      location: language === 'tr' ? 'İstanbul Göztepe Özgürlük Parkı / Ankara Botanik Parkı' : 'İstanbul Göztepe Özgürlük Park / Ankara Botanik Park',
+      attendees: 80,
+      instagramUrl: 'https://www.instagram.com/p/DO6Q3J0CBhb',
+      description: language === 'tr'
+        ? 'Sizleri çok özledik ve yaz bitmeden sizinle beraber açık havada son kez hasret gidermek istedik.'
+        : 'We’ve missed you so much, and before summer ends, we wanted to reunite with you one last time in the open air.',
+      hasForm: false,
+      hasPizza: true,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Oyun Geliştirici Pikniği' : 'Game Developer Picnic',
+        description: language === 'tr' ? 'Sizleri çok özledik ve yaz bitmeden sizinle beraber açık havada son kez hasret gidermek istedik.'
+        : 'We’ve missed you so much, and before summer ends, we wanted to reunite with you one last time in the open air.',
+        startDate: '2025-09-27',
+        startTime: '14:00',
+        endTime: '15:00',
+        location: 'İstanbul Göztepe Özgürlük Parkı / Ankara Botanik Parkı',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
+    {
+      id: 12,
+      title: language === 'tr' ? 'Mini Oyun Analizi' : 'Mini Game Analysis',
+      date: language === 'tr' ? '23 Eylül 2025' : '23 Sep 2025',
+      time: '19:00',
+      location: language === 'tr' ? 'ÜNOG Discord Kanalı' : 'ÜNOG Discord Server',
+      attendees: 80,
+      instagramUrl: 'https://www.instagram.com/p/DO37URpiOdn/?img_index=1',
+      description: language === 'tr'
+        ? 'Flash inceleme etkinliğimizde seçtiğimiz eski oyunları derinlemesine, bütün yönleriyle inceleyip yorumlayacağız. ✍🏻'
+        : 'In our Flash review event, we’ll be taking an in-depth look at selected classic games, examining and commenting on them from every angle. ✍🏻',
+      hasForm: false,
+      hasPizza: false,
+      formUrl: null,
+      calendarData: {
+        name: language === 'tr' ? 'Mini Oyun Analizi' : 'Mini Game Analysis',
+        description: language === 'tr' ? 'Flash inceleme etkinliğimizde seçtiğimiz eski oyunları derinlemesine, bütün yönleriyle inceleyip yorumlayacağız. ✍🏻' : 'In our Flash review event, we’ll be taking an in-depth look at selected classic games, examining and commenting on them from every angle. ✍🏻',
+        startDate: '2025-09-23',
+        startTime: '19:00',
+        endTime: '20:00',
+        location: 'ÜNOG Discord',
+        options: ['Google', 'Apple', 'Outlook.com']
+      }
+    },
     {
       id: 11,
       title: language === 'tr' ? 'İstanbul Geliştirici Buluşması' : 'İstanbul Developer Meetup',
